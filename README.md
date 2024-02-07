@@ -3,10 +3,13 @@ This repository contains the statistical/analytic code for our paper titled "Eva
 
 Our code is written in SQL (BigQuery) and python version 3.9.1. Required python packages include pandas (version 2.0.3), google.cloud (3.3.5), matplotlib (3.3.3), numpy (version 1.25.1), and statsmodels (0.14.0). 
 
-1. Analysis of nephrology referrals
+1. Create tables for analysis
+Code: OMOP_queries.sql runs the SQL code to generate tables required for our analysis. Data from Stanford Health Care is in the Observational Medical Outcomes Partnership (OMOP) common data model format. 
+
+3. Analysis of nephrology referrals
 Code: kidney_clinic_referral_1_31_24.py runs the interrupted time series regression to assess changes to the quarterly rates of nephrology referrals at SHC after the implementation of the eGFR formula without race adjustment (CKD-EPI 2021). 
 
-2. Analysis of nephrology visits
+4. Analysis of nephrology visits
 Code: kidney_clinic_visit_1_31_24.py runs the interrupted time series regression to assess changes to the quarterly rates of nephrology visits at SHC after the implementation of the eGFR formula without race adjustment (CKD-EPI 2021). 
 
 
