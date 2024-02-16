@@ -17,7 +17,7 @@ on vo1.person_id = t.person_id and vo1.visit_start_DATETIME < t.first_referral
 group by t.person_id, t.first_referral;
 
 -- Run person table, which identifies age, sex, race
-CREATE OR REPLACE TABLE `mmcusick_explore.person_table` AS
+CREATE OR REPLACE TABLE `X.person_table` AS
 SELECT person_id, p.gender_concept_id, c1.concept_name as gender, year_of_birth, month_of_birth, day_of_birth, 
 birth_DATETIME, p.race_source_value, c.concept_name as race, p.ethnicity_source_value, 
 c2.concept_name as ethnicity FROM
