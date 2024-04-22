@@ -1,5 +1,5 @@
 # eGFR_equation_SHC
-This repository contains the analytic code for our paper titled "Algorithmic changes are not enough: Evaluating the removal of race adjustment from the eGFR equation" by Marika Cusick, Glenn Chertow, Doug Owens, Michelle Williams, and Sherri Rose. 
+This repository contains code for the paper "Algorithmic Changes Are Not Enough: Evaluating the Removal of Race Adjustment from the eGFR Equation" by Marika Cusick, Glenn Chertow, Doug Owens, Michelle Williams, and Sherri Rose (2024), [[arXiv]](https://arxiv.org/abs/2404.12812), forthcoming in the Proceedings of CHIL 2024.
 
 While the analytical code is made available, our data is generated from Stanford Health Care electronic health record data that includes patient identifiers and protected health information. These data cannot be accessed without approval from the Stanford Institutional Review Board. We have replaced all references to data tables with 'X'. 
 
